@@ -118,6 +118,7 @@ namespace Laboratoriol
             linea = Leer.ReadToEnd();
             Console.WriteLine(linea);
             Leer.Close();
+            Archivo.Close();
             return linea;
 
         }
