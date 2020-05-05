@@ -15,9 +15,8 @@ namespace Laboratoriol
         public void inventario()
         {
             int op = 0;
-            int total = 0;
             Console.WriteLine("¿Que desea realizar?");
-            Console.WriteLine("\n 1.Agregar producto nuevo\n 2.Actualizar producto");
+            Console.WriteLine("\n 1.Agregar nuevo producto\n 2.Actualizar producto");
             op = int.Parse(Console.ReadLine());
 
             if (op == 1)
