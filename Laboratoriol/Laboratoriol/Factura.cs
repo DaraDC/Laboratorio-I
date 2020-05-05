@@ -31,7 +31,7 @@ namespace Laboratoriol
                 Escribir.WriteLine("El subtotal es: Q" + Sub);
                 Escribir.Close();
                 Console.WriteLine("El subtotal es: Q" + Sub);
-                Console.WriteLine("¿Desea realizar otra compra? [s/n]:");
+                Console.Write("¿Desea realizar otra compra? [s/n]:");
                 op = char.Parse(Console.ReadLine());
                 Total = Total + Sub;
             }

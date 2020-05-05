@@ -37,7 +37,7 @@ namespace Laboratoriol
                 Agregarproducto(Cargar("Producto "), Cargar("Cantidad a agregar "), Cargar("Precio "));
                 Escribir = File.AppendText(tdt);
                 Escribir.Close();
-                Console.WriteLine("El producto se ha actualizado");
+                Console.WriteLine("\n El producto se ha actualizado");
             }
         }
         public void inventario2()
